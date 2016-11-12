@@ -10,7 +10,7 @@ import sharp from 'sharp'
 import yaml from 'yamljs'
 
 
-const printer = yaml.load(__dirname+'/default.yml')
+const printer = yaml.load(__dirname.replace('/dist','')+'/default.yml')
 let printable = false
 const pixelGeo = new THREE.CubeGeometry(
   printer.line, 
