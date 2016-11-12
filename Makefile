@@ -11,7 +11,7 @@ all:
 	make build js
  
 app:
-	node_modules/.bin/electron-packager . relief --arch x64 --platform darwin
+	node_modules/.bin/electron-packager . pixe(p)late --arch x64 --platform darwin
 
 run:
 	node_modules/.bin/electron .
