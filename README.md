@@ -5,7 +5,7 @@ pixe(p)late is a simple program that lets you drop in images and get back 3D pri
 #### or if you want you can build from source:
 ```
 $: git clone https://github.com/wepress/pixeplate.git
-$: cd relief
+$: cd pixeplate
 $: make all
 ```
 
